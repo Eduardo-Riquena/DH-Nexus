@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultoria | DH Nexus — Humanização Digital B2B</title>
+  <meta name="description" content="Diagnóstico de humanização, posicionamento e tom de voz, linha editorial e mentoria H2H para empresas B2B.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Consultoria | DH Nexus — Humanização Digital B2B">
+  <meta property="og:description" content="Conheça os 4 caminhos de transformação da DH Nexus.">
+  <meta property="og:image" content="assets/logo-dark-bg.png">
+  
+  <link rel="icon" type="image/png" href="assets/logo-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <canvas id="nexus-canvas"></canvas>
+
+  <div class="ambient-glow glow-teal-1"></div>
+  <div class="ambient-glow glow-orange-1"></div>
+
+  <div class="content-wrapper">
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="container navbar-inner">
+        <a href="index.html" class="navbar-brand">
+          <img src="assets/logo-dark-bg.png" alt="DH Nexus" class="brand-logo-img">
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="consultoria.html" class="active">Consultoria</a></li>
+          <li><a href="cases.html">Cases</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="index.html#sessao" class="btn btn-primary btn-sm">Sessão de Clareza</a>
+          <button class="mobile-toggle" aria-label="Abrir Menu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="drawer-overlay"></div>
+    <div class="mobile-drawer">
+      <div>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <a href="index.html" class="navbar-brand">
+            <img src="assets/logo-dark-bg.png" alt="DH Nexus" class="brand-logo-img">
+          </a>
+          <button class="drawer-close" style="background: none; border: none; color: white; font-size: 1.4rem; cursor: pointer;">✕</button>
+        </div>
+        <ul class="mobile-nav-links">
+          <li><a href="index.html">Home <span>→</span></a></li>
+          <li><a href="sobre.html">Sobre <span>→</span></a></li>
+          <li><a href="consultoria.html" class="active">Consultoria <span>→</span></a></li>
+          <li><a href="cases.html">Cases <span>→</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="index.html#sessao" class="btn btn-primary" style="width: 100%;">Sessão de Clareza</a>
+      </div>
+    </div>
+
+    <!-- PAGE HERO -->
+    <div class="page-hero">
+      <div class="container reveal-up">
+        <div class="badge-tag">
+          <span class="pulse-dot"></span>
+          O Que Oferecemos
+        </div>
+        <h1>Consultoria em Humanização Digital</h1>
+        <p>Começamos com uma conversa franca de 30 minutos. O caminho certo para o seu momento aparece a partir daí.</p>
+      </div>
+    </div>
+
+    <!-- AVISO DO PROCESSO & PONTO DE ENTRADA -->
+    <section style="padding-top: 10px; padding-bottom: 50px;">
+      <div class="container">
+        
+        <div class="glass-card reveal-scale" style="border-left: 4px solid var(--orange-primary); margin-bottom: 40px;">
+          <h4 style="color: var(--orange-primary); font-size: 1.15rem; margin-bottom: 8px;">Como funciona nosso processo:</h4>
+          <p style="font-size: 1.05rem; margin: 0; color: var(--text-main);">
+            Tudo começa com uma <strong>Sessão de Clareza gratuita de 30 minutos</strong>. É nela que Alessandra analisa sua presença digital antes da chamada, entende o momento da sua empresa e indica o serviço mais adequado. Se não houver fit, ela diz sem rodeios.
+          </p>
+        </div>
+
+        <div class="glass-card reveal-up" style="border-color: var(--teal-primary); background: rgba(13, 27, 42, 0.85);">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; margin-bottom: 20px;">
+            <div>
+              <span class="badge-tag orange">Ponto de Entrada · Gratuito</span>
+              <h2 style="font-size: 2rem; margin-top: 6px;">Sessão de Clareza (30 min)</h2>
+              <p style="max-width: 600px; margin-top: 8px;">Uma leitura inicial da sua presença digital. Analisamos seu site e redes sociais antes da conversa e apresentamos os pontos críticos de frieza.</p>
+            </div>
+            <a href="index.html#sessao" class="btn btn-primary btn-lg">Agendar Minha Sessão Gratuita →</a>
+          </div>
+
+          <div class="deliverables-title" style="margin-top: 24px;">O que inclui:</div>
+          <ul class="deliverables-list">
+            <li><span class="check-icon">✓</span> Análise prévia do site, Instagram e LinkedIn da empresa</li>
+            <li><span class="check-icon">✓</span> Identificação dos gargalos onde os leads esfriam</li>
+            <li><span class="check-icon">✓</span> Indicação do serviço mais adequado para o seu momento</li>
+            <li><span class="check-icon">✓</span> Sem compromisso comercial</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- OS 4 CAMINHOS DE TRANSFORMAÇÃO DETALHADOS -->
+    <section>
+      <div class="container">
+        
+        <div class="section-header reveal-up">
+          <div class="badge-tag">
+            <span class="pulse-dot"></span>
+            Nossos Serviços
+          </div>
+          <h2>Quatro Caminhos de <span class="highlight-teal">Transformação</span></h2>
+          <p>Estruturas completas para levar sua empresa da invisibilidade digital para autoridade autoral que converte.</p>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 32px;">
+          
+          <!-- 1. Diagnóstico -->
+          <div class="glass-card reveal-left" id="diagnostico">
+            <div class="service-detail-header">
+              <div>
+                <span class="service-tag">Pilar 01 · Avaliação Profunda (30 a 90 dias)</span>
+                <h3 style="font-size: 1.85rem; margin-top: 8px;">1. Diagnóstico de Humanização Digital</h3>
+              </div>
+              <a href="index.html#sessao" class="btn btn-primary btn-sm">Solicitar Diagnóstico</a>
+            </div>
+            <p class="service-lead">
+              Uma análise aprofundada de toda a presença online da empresa: site, redes sociais, fluxos de nutrição, tom de voz e canais de vendas. Entregue em uma sessão estratégica executiva com plano de ação tático.
+            </p>
+            <div class="deliverables-title">Entregáveis:</div>
+            <ul class="deliverables-list">
+              <li><span class="check-icon">✓</span> Mapa completo de pontos de frieza digital por canal</li>
+              <li><span class="check-icon">✓</span> Diagnóstico do gap entre conteúdo genérico e conteúdo autoral</li>
+              <li><span class="check-icon">✓</span> Análise da jornada de atrito emocional do lead</li>
+              <li><span class="check-icon">✓</span> Sessão estratégica com a Alessandra para apresentação detalhada</li>
+              <li><span class="check-icon">✓</span> Plano tático priorizado para os próximos 30 a 90 dias</li>
+            </ul>
+            <div class="service-target-box">
+              <strong>Para quem é:</strong>
+              <p>Empresas B2B com presença digital ativa que sentem que investem sem retorno proporcional: leads chegam e somem, ou a marca parece fria e sem identidade.</p>
+            </div>
+          </div>
+
+          <!-- 2. Posicionamento -->
+          <div class="glass-card reveal-right" id="posicionamento">
+            <div class="service-detail-header">
+              <div>
+                <span class="service-tag">Pilar 02 · Identidade de Marca</span>
+                <h3 style="font-size: 1.85rem; margin-top: 8px;">2. Posicionamento Estratégico e Tom de Voz</h3>
+              </div>
+              <a href="index.html#sessao" class="btn btn-primary btn-sm">Estruturar Posicionamento</a>
+            </div>
+            <p class="service-lead">
+              Para empresas que precisam de uma identidade comunicacional única: diferenciada da concorrência, humana e sustentável para todo o time comercial e de marketing.
+            </p>
+            <div class="deliverables-title">Entregáveis:</div>
+            <ul class="deliverables-list">
+              <li><span class="check-icon">✓</span> Definição do ICP com profundidade comportamental</li>
+              <li><span class="check-icon">✓</span> Arquétipo da marca e proposição única de valor</li>
+              <li><span class="check-icon">✓</span> Tom de voz com exemplos práticos (o que dizemos / o que nunca dizemos)</li>
+              <li><span class="check-icon">✓</span> Guia prático de comunicação para uso interno da equipe</li>
+              <li><span class="check-icon">✓</span> Revisão de copy do site principal e apresentações comerciais</li>
+            </ul>
+            <div class="service-target-box">
+              <strong>Para quem é:</strong>
+              <p>Empresas em momento de reposicionamento, que cresceram e perderam a essência, ou que nunca tiveram uma estratégia de tom de voz padronizada.</p>
+            </div>
+          </div>
+
+          <!-- 3. Linha Editorial -->
+          <div class="glass-card reveal-left" id="editorial">
+            <div class="service-detail-header">
+              <div>
+                <span class="service-tag">Pilar 03 · Conteúdo Autoral</span>
+                <h3 style="font-size: 1.85rem; margin-top: 8px;">3. Linha Editorial e Gestão de Conteúdo</h3>
+              </div>
+              <a href="index.html#sessao" class="btn btn-primary btn-sm">Reestruturar Conteúdo</a>
+            </div>
+            <p class="service-lead">
+              Estrutura editorial completa para marcas que querem publicar com consistência, autoridade autêntica e conversão mensurável no LinkedIn e outros canais.
+            </p>
+            <div class="deliverables-title">Entregáveis:</div>
+            <ul class="deliverables-list">
+              <li><span class="check-icon">✓</span> Definição dos pilares editoriais proprietários da marca</li>
+              <li><span class="check-icon">✓</span> Calendário temático trimestral de narrativas</li>
+              <li><span class="check-icon">✓</span> Criação de pautas por canal: LinkedIn corporativo e newsletter</li>
+              <li><span class="check-icon">✓</span> Templates de posts e copywriting autoral</li>
+              <li><span class="check-icon">✓</span> Treinamento do time de conteúdo interno no tom de voz</li>
+            </ul>
+            <div class="service-target-box">
+              <strong>Para quem é:</strong>
+              <p>Empresas que já têm profissionais de marketing ou agência, mas publicam conteúdos mornos sem estratégia, que não geram conversas de negócios.</p>
+            </div>
+          </div>
+
+          <!-- 4. Mentoria H2H -->
+          <div class="glass-card reveal-right" id="mentoria">
+            <div class="service-detail-header">
+              <div>
+                <span class="service-tag">Pilar 04 · Liderança Magnética</span>
+                <h3 style="font-size: 1.85rem; margin-top: 8px;">4. Mentoria Executiva para Comunicação H2H</h3>
+              </div>
+              <a href="index.html#sessao" class="btn btn-primary btn-sm">Aplicar para Mentoria</a>
+            </div>
+            <p class="service-lead">
+              Acompanhamento direto e contínuo para fundadores, CEOs e diretores que querem desenvolver sua presença digital pessoal como um canal de autoridade e novos negócios.
+            </p>
+            <div class="deliverables-title">Entregáveis:</div>
+            <ul class="deliverables-list">
+              <li><span class="check-icon">✓</span> Sessões quinzenais ou mensais de estratégia direta com Alessandra</li>
+              <li><span class="check-icon">✓</span> Desenvolvimento e refinamento da voz autoral no LinkedIn</li>
+              <li><span class="check-icon">✓</span> Revisão e curadoria de conteúdos antes da publicação</li>
+              <li><span class="check-icon">✓</span> Canal direto e prioritário no WhatsApp para dúvidas</li>
+              <li><span class="check-icon">✓</span> Métricas de conexão e atração de decisores de compra</li>
+            </ul>
+            <div class="service-target-box">
+              <strong>Para quem é:</strong>
+              <p>CEOs e líderes que entendem que pessoas compram de pessoas, e querem construir autoridade digital com segurança sem soar robóticos.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section>
+      <div class="container">
+        
+        <div class="section-header reveal-up">
+          <div class="badge-tag orange">
+            <span class="pulse-dot"></span>
+            Por Que a DH Nexus
+          </div>
+          <h2>O Que Nos Diferencia de Agências Tradicionais</h2>
+        </div>
+
+        <div class="nexus-pillars-grid">
+          
+          <div class="pillar-card reveal-left">
+            <div class="pillar-number">Diferencial 01</div>
+            <h3>Começamos Pela Dor Real</h3>
+            <p>Não vendemos soluções prontas antes de entender a raiz do problema. A Sessão de Clareza vem primeiro. Sempre.</p>
+          </div>
+
+          <div class="pillar-card reveal-scale">
+            <div class="pillar-number">Diferencial 02</div>
+            <h3>Atendimento Direto</h3>
+            <p>Você sempre fala com Alessandra Riquena. Sem intermediação de estagiários ou analistas juniores repassando recados.</p>
+          </div>
+
+          <div class="pillar-card reveal-right">
+            <div class="pillar-number">Diferencial 03</div>
+            <h3>Resultado com Rastreio</h3>
+            <p>Medimos conexão, não curtidas de vaidade. Engajamento qualitativo com tomadores de decisão que viram reuniões e contratos.</p>
+          </div>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 45px;" class="reveal-up">
+          <a href="index.html#sessao" class="btn btn-primary btn-lg">
+            Agendar Minha Sessão de Clareza Gratuita →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          
+          <div class="footer-brand">
+            <a href="index.html" class="navbar-brand">
+              <img src="assets/logo-dark-bg.png" alt="DH Nexus" class="brand-logo-img">
+            </a>
+            <p>
+              Consultoria em humanização digital para empresas B2B. Comunicação que aproxima, converte e fideliza.
+            </p>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/company/dhnexus/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">in</a>
+              <a href="https://www.instagram.com/dhnexus.mkt/" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">ig</a>
+              <a href="https://www.youtube.com/@Alessandra_Riquena" target="_blank" rel="noopener" class="social-btn" aria-label="YouTube">yt</a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Páginas</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="consultoria.html">Consultoria</a></li>
+              <li><a href="cases.html">Cases</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Consultoria</h4>
+            <ul>
+              <li><a href="consultoria.html#diagnostico">Diagnóstico</a></li>
+              <li><a href="consultoria.html#posicionamento">Posicionamento</a></li>
+              <li><a href="consultoria.html#editorial">Linha Editorial</a></li>
+              <li><a href="consultoria.html#mentoria">Mentoria H2H</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contato</h4>
+            <ul>
+              <li><a href="index.html#sessao">Sessão de Clareza</a></li>
+              <li><a href="mailto:contato@dhnexus.com.br">contato@dhnexus.com.br</a></li>
+              <li><a href="https://wa.me/5521965485163" target="_blank" rel="noopener">WhatsApp</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          <span>&copy; 2026 DH Nexus · Todos os direitos reservados.</span>
+          <span>Human-to-Human (H2H) · Conteúdo Autoral · Tecnologia com Intenção</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

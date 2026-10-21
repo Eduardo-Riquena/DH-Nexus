@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110" fill="none">
+  <defs>
+    <linearGradient id="ga" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1AB5A3"/>
+      <stop offset="100%" stop-color="#4EEAE8"/>
+    </linearGradient>
+    <linearGradient id="gb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E8F80"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+    </linearGradient>
+  </defs>
+  <!-- Anel hexagonal externo traseiro -->
+  <path d="M14 28 L38 10 L62 28 L62 72 L38 90 L14 72 Z" fill="url(#gb)" opacity="0.55"/>
+  <path d="M14 28 L38 10 L62 28 L62 72 L38 90 L14 72 Z" fill="none" stroke="url(#gb)" stroke-width="7" opacity="0.6"/>
+  <!-- Anel hexagonal externo frontal (deslocado) -->
+  <path d="M38 20 L62 10 L86 28 L86 72 L62 90 L38 72 Z" fill="url(#ga)" opacity="0.85"/>
+  <path d="M38 20 L62 10 L86 28 L86 72 L62 90 L38 72 Z" fill="none" stroke="url(#ga)" stroke-width="7" opacity="0.4"/>
+  <!-- Janela interna (forma D) -->
+  <path d="M52 28 L68 28 L80 50 L68 72 L52 72 L64 50 Z" fill="url(#gb)" opacity="0.38"/>
+  <path d="M24 30 L38 22 L38 78 L24 70 Z" fill="white" opacity="0.12"/>
+</svg>
